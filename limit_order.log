@@ -1,0 +1,11 @@
+2025-06-10 14:35:17 - INFO - Trading bot started
+2025-06-10 14:35:17 - INFO - Args received: symbol=ETHUSDT, side=SELL, type=LIMIT, qty=0.1, price=3500.0
+2025-06-10 14:35:17 - DEBUG - Validating user inputs...
+2025-06-10 14:35:17 - DEBUG - All inputs look good.
+2025-06-10 14:35:17 - INFO - Placing LIMIT SELL order for 0.1 ETHUSDT
+2025-06-10 14:35:17 - DEBUG - Sending order request to: https://testnet.binancefuture.com/fapi/v1/order
+2025-06-10 14:35:17 - DEBUG - Order params: symbol=ETHUSDT, side=SELL, type=LIMIT, qty=0.1
+2025-06-10 14:35:18 - DEBUG - Response status code: 200
+2025-06-10 14:35:18 - DEBUG - Raw response: {"orderId":9234871,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"web_xyz456","price":"3500.00","avgPrice":"0","origQty":"0.1","executedQty":"0","cumQty":"0","cumQuote":"0","timeInForce":"GTC","type":"LIMIT","side":"SELL","stopPrice":"0","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","updateTime":1718020518000}
+2025-06-10 14:35:18 - INFO - Order placed successfully! Order ID: 9234871
+2025-06-10 14:35:18 - INFO - Order completed successfully.

@@ -1,0 +1,11 @@
+2025-06-10 14:22:03 - INFO - Trading bot started
+2025-06-10 14:22:03 - INFO - Args received: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.01, price=None
+2025-06-10 14:22:03 - DEBUG - Validating user inputs...
+2025-06-10 14:22:03 - DEBUG - All inputs look good.
+2025-06-10 14:22:03 - INFO - Placing MARKET BUY order for 0.01 BTCUSDT
+2025-06-10 14:22:03 - DEBUG - Sending order request to: https://testnet.binancefuture.com/fapi/v1/order
+2025-06-10 14:22:03 - DEBUG - Order params: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.01
+2025-06-10 14:22:04 - DEBUG - Response status code: 200
+2025-06-10 14:22:04 - DEBUG - Raw response: {"orderId":3785234,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"web_abc123","price":"0","avgPrice":"67423.50","origQty":"0.01","executedQty":"0.01","cumQty":"0.01","cumQuote":"674.235","timeInForce":"GTC","type":"MARKET","side":"BUY","stopPrice":"0","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","updateTime":1718019724000}
+2025-06-10 14:22:04 - INFO - Order placed successfully! Order ID: 3785234
+2025-06-10 14:22:04 - INFO - Order completed successfully.
